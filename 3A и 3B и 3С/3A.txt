@@ -1,0 +1,43 @@
+app.get('/task3A', (req, res, next) => {
+    let pc = {};
+    fetch(pcUrl)
+        .then((result) => result.json())
+        .then(PC => res.json(PC))
+        .catch(err => {
+            next(err);
+        });
+
+});
+
+
+-----------------------
+
+mport express from 'express';
+import fetch from 'isomorphic-fetch';
+import cors from 'cors';
+
+const app = express();
+app.use(cors());
+
+
+
+const baseUrl = 'https://pokeapi.co/api/v2'; 
+
+app.get('/', async (req, res) => {
+  const response = await fetch('${baseUrl}/pokemon');
+  console.log(response);
+  return  res.json({
+    qwe: '123',
+ });
+});
+
+app.listen(3000, () => {
+  console.log('Your app listening3000! V7');
+
+
+__________________________
+pp.get('/test3A/:id1?/:id2?/:id3?', function(req, res) {
+  console.log(req.originalUrl);
+  console.log("id1 = " + req.params.id1);
+  console.log("id2 = " + req.params.id2);
+  console.log("id3 = " + req.params.id3);
