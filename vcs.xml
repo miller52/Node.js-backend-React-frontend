@@ -6,8 +6,12 @@
           <option name="url" value="https://github.com/miller52/Node.js-backend-React-frontend" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/miller52/FOTON" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="H:\ANDROID\GIT PROJECTS\SkillBranch-master\Node.js-backend-React-frontend" />
+    <option name="cloneParentDir" value="H:\DEVELOPMENT\ANDROID\Projects\o.krymov.photon.ru\o.krymov.photon.ru" />
   </component>
 </application>
