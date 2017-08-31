@@ -1,6 +1,0 @@
-<application>
-  <component name="IntentionManagerSettings">
-    <ignoreAction name="Android/Override Resource in Other Configuration..." />
-    <ignoreAction name="Language Injection/Inject language or reference" />
-  </component>
-</application>
